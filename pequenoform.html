@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <link rel="stylesheet" href="_css/estilo.css">
+        <style>
+            h2{
+                font-family: arial;
+                
+            }
+        </style>
+    </head>
+    <title></title>
+    <body>
+        <div>
+            <form method="get" action="dadospequenoform.php">
+                Nome: <input type="text" name="nome"/><br/>
+                Ano Nascimento <input type="number" name="ano"/><br/>
+                <fieldset><legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="masc" value="homem" checked/>
+                    <label for="masc">masc</label><br/>
+                    <input type="radio" name="sexo" id="fem" value="mulher"/>
+                    <label for="fem">fem</label><br/>
+            <input type="submit" value="Enviar">
+            </form>
+            
+            
+        </div>
+    </body>
+</html>
